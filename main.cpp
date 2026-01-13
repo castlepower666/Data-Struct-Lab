@@ -8,8 +8,7 @@ using namespace std;
 
 // 显示主菜单
 void showMainMenu() {
-    cout << "\n========================================" << endl;
-    cout << "      数据结构课程设计系统" << endl;
+    cout << "      主系统" << endl;
     cout << "========================================" << endl;
     cout << "1. 文章编辑系统" << endl;
     cout << "2. 猴子选大王" << endl;
@@ -106,8 +105,6 @@ void runArticleSystem() {
 
 int main() {
     int choice;
-
-    cout << "欢迎使用数据结构课程设计系统！" << endl;
 
     while (true) {
         showMainMenu();
